@@ -2604,7 +2604,6 @@ let listOfWords = [
     "NAFTA",
     "NAGEL",
     "NAGER",
-    "NAILA",
     "NAJAT",
     "NAMEN",
     "NAMIB",
