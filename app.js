@@ -461,7 +461,6 @@ let listOfWords = [
     "BONDS",
     "BONGO",
     "BONGS",
-    "BONNS",
     "BONUS",
     "BONZE",
     "BOOLE",
