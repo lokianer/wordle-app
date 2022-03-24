@@ -1039,7 +1039,6 @@ let listOfWords = [
     "EXILS",
     "EXNER",
     "EXPAT",
-    "EXTER",
     "EXXON",
     "EYLAU",
     "EYRIR",
