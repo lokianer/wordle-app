@@ -1231,7 +1231,6 @@ let listOfWords = [
     "GARDE",
     "GARNE",
     "GARNS",
-    "GARRY",
     "GASEN",
     "GASES",
     "GASSE",
