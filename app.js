@@ -2040,7 +2040,6 @@ let listOfWords = [
     "KROPF",
     "KRUGS",
     "KRUKE",
-    "KRULL",
     "KRUME",
     "KRUPP",
     "KRUSE",
@@ -4471,12 +4470,6 @@ const flipTile = () => {
         guess.push({ letter: tile.getAttribute('data'), color: 'grey-overlay' })
     })
 
-    guess.forEach((guess, index) => {
-        if (guess.letter == wordle[index]) {
-            guess.color = 'orange-overlay'
-            checkWordle = checkWordle.replace(guess.letter, '')
-        }
-    })
 
     guess.forEach(guess => {
         if (checkWordle.includes(guess.letter)) {
@@ -4484,6 +4477,14 @@ const flipTile = () => {
             checkWordle = checkWordle.replace(guess.letter, '')
         }
     })
+
+    guess.forEach((guess, index) => {
+        if (guess.letter == wordle[index]) {
+            guess.color = 'orange-overlay'
+            checkWordle = checkWordle.replace(guess.letter, '')
+        }
+    })
+
 
 
 
