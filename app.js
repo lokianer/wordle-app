@@ -154,7 +154,6 @@ let listOfWords = [
     "ARALS",
     "ARBON",
     "ARCHE",
-    "ARCOR",
     "ARCUS",
     "AREAL",
     "AREAS",
