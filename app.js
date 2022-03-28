@@ -2655,7 +2655,6 @@ let listOfWords = [
     "NORAS",
     "NORMA",
     "NORTH",
-    "NOSQL",
     "NOTAM",
     "NOTAR",
     "NOTEN",
@@ -4409,6 +4408,7 @@ const flipTile = () => {
     const rowTiles = document.querySelector('#guessRow-' + currentRow).childNodes
     let checkWordle = wordle
     const guess = []
+
     rowTiles.forEach(tile => {
         guess.push({ letter: tile.getAttribute('data'), color: 'grey-overlay' })
     })
